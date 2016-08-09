@@ -1,0 +1,4 @@
+<Tests>
+  <Test fileName="CreateRequestAndAllApprove.xml" description="Создание заявки и согласование всеми участниками без отклонений"  TestEnabled="True" />
+  <Test fileName="CreateRequestAndAllApproveWithRework.xml" description="Создание заявки, доработка, согласование всеми участниками"  TestEnabled="True" />
+</Tests>

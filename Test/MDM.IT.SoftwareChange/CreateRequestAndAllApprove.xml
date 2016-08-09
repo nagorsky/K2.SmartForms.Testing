@@ -1,0 +1,5 @@
+<TestDef>
+  <Activity fileName="CreateRequest" description="Создание заявки"  runAsUser="corp\k2-test-user2" />
+  <Activity fileName="ApproveBPOwner" description="Согласование заявки владельцам бизнес-процесса"  runAsUser="corp\nagorskiy" />
+  <Activity fileName="ApproveURIS" description="Согласование заявки нач. упр. УРИС"  runAsUser="corp\user3" />
+</TestDef>

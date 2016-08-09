@@ -1,0 +1,14 @@
+<Tests>
+  <Test fileName="CreateRequestAndAllApprove" description="Создание заявки и согласование всеми участниками без отклонений"  TestEnabled="True" />
+  <Test fileName="CreateRequestAndAllApproveWithRework" description="Создание заявки, доработка, согласование всеми участниками"  TestEnabled="True" />
+  
+  <Settings>
+	<BaseUrl value="" />
+	<Speed value="" />
+	<ScreenshotMode value="BrowserWindow" /> <!-- Fullscreen -->
+	<ScreenshotFolder value="Screen" />
+	<IgnoreErrorMode value="Screen" />
+	<DelayBetweenStepsSec value="1" />
+  </Settings>
+    		
+</Tests>

@@ -1,0 +1,5 @@
+<Test>
+  <Activity fileName="CreateRiskMessageM50" description="Создание заявки более 50 т.р."  runAsUser="corp\user1" />
+  <Activity fileName="ApproveRiskMessageM50ByRiskCoordinator" description="Согласование заявки риск-координатором"  runAsUser="corp\user2" />
+  <Activity fileName="ApproveRiskMessageM50ByRiskCKOR" description="Согласование заявки сотрудником ЦКОР"  runAsUser="corp\user3" />
+</Test>

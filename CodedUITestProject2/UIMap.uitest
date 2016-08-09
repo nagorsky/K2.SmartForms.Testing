@@ -1,0 +1,1462 @@
+<?xml version="1.0"?>
+<UITest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="" Id="3dfbc26f-187f-46d7-ab0b-e4085db135cb" AssemblyVersion="14.0.23107.0" Version="1.0" xmlns="http://schemas.microsoft.com/VisualStudio/TeamTest/UITest/2010">
+  <Configuration>
+    <Group Name="IE">
+      <Setting Name="Version" Value="9.11.9600.17358" WarningLevel="1" />
+      <Setting Name="InformationBar" WarningLevel="1" />
+      <Setting Name="AutoCompletePassword" WarningLevel="1" />
+      <Setting Name="AutoCompleteForm" WarningLevel="1" />
+      <Setting Name="DefaultBrowser" Value="IEXPLORE.EXE" WarningLevel="1" />
+      <Setting Name="PopupBlocker" Value="1" WarningLevel="1" />
+      <Setting Name="TabbedBrowsing" WarningLevel="2" />
+      <Setting Name="InternetZoneSecurity" Value="66816" WarningLevel="2" />
+      <Setting Name="IntranetZoneSecurity" Value="69632" WarningLevel="2" />
+      <Setting Name="TrustedZoneSecurity" Value="70912" WarningLevel="2" />
+      <Setting Name="RestrictedZoneSecurity" Value="73728" WarningLevel="2" />
+      <Setting Name="PhishingFilter" WarningLevel="1" />
+      <Setting Name="EnhancedSecurityConfiguration" WarningLevel="1" />
+    </Group>
+    <Group Name="OS">
+      <Setting Name="Name" Value="Microsoft Windows 7 Максимальная " WarningLevel="2" />
+      <Setting Name="Version" Value="Microsoft Windows NT 6.1.7601 Service Pack 1" WarningLevel="2" />
+      <Setting Name="IsUserAdmin" Value="False" WarningLevel="2" />
+      <Setting Name="Is64BitOperatingSystem" Value="True" WarningLevel="2" />
+      <Setting Name="IsTerminalServerSession" Value="False" WarningLevel="2" />
+      <Setting Name="OSLanguage" Value="1049" WarningLevel="1" />
+      <Setting Name="UserLocale" Value="1049" WarningLevel="1" />
+      <Setting Name="DragFullWindows" Value="True" WarningLevel="2" />
+      <Setting Name="ScreenResolutionWidth" Value="1920" WarningLevel="2" />
+      <Setting Name="ScreenResolutionHeight" Value="1080" WarningLevel="2" />
+      <Setting Name="SystemDPIX" Value="96" WarningLevel="2" />
+      <Setting Name="SystemDPIY" Value="96" WarningLevel="2" />
+      <Setting Name="Aero" Value="1" WarningLevel="1" />
+      <Setting Name="UACEnabled" Value="1" WarningLevel="2" />
+      <Setting Name="UACPromptEnabled" Value="5" WarningLevel="1" />
+    </Group>
+    <Group Name="TechnologyManagers">
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="UIA" WarningLevel="1" />
+    </Group>
+  </Configuration>
+  <InitializeActions />
+  <ExecuteActions>
+    <NavigateToUrlAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow">
+      <ParameterName />
+      <Url>http://go.microsoft.com/fwlink/?LinkId=69157</Url>
+      <NewInstance>true</NewInstance>
+    </NavigateToUrlAction>
+    <MouseAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow.UIItemWindow.UIАдреснаястрокаClient.UIАдресEdit">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="236" Y="8" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <NavigateToUrlAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow">
+      <ParameterName />
+      <Url>http://k2/Runtime/Runtime/Form/MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage/</Url>
+      <NewInstance>false</NewInstance>
+    </NavigateToUrlAction>
+    <MouseAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow.UIАдреснаястрокаWindow.UIАдреснаястрокаClient">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="278" Y="-6" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>DoubleClick</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow.UIMDMRisksOperRiskMessDocument.UIПараметрыдекларациииCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="1152" Y="1" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow.UIMDMRisksOperRiskMessDocument.UIItemHyperlink">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="7" Y="12" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow.UIMDMRisksOperRiskMessDocument.UIUidatepickerdivPane.UIItem4Hyperlink">
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="1" Y="1" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Hover</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow.UIMDMRisksOperRiskMessDocument.UIUidatepickerdivPane.UIItem10Hyperlink">
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="1" Y="1" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Hover</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow.UIMDMRisksOperRiskMessDocument.UIUidatepickerdivPane.UIItemTable.UIItem17Cell">
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="1" Y="1" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Hover</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow.UIMDMRisksOperRiskMessDocument.UIUidatepickerdivPane.UIItem17Hyperlink">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="20" Y="5" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow.UIMDMRisksOperRiskMessDocument.UIUidatepickerdivPane.UIItemTable.UIItem18Cell">
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="1" Y="1" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Hover</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow.UIMDMRisksOperRiskMessDocument.UIВведитезначениеCell.UIВведитезначениеPane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="132" Y="49" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SetValueAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow.UIMDMRisksOperRiskMessDocument.UITextAreaEdit">
+      <ParameterName />
+      <Value Encoded="false">test description here</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <MouseAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow.UIMDMRisksOperRiskMessDocument.UIItemHyperlink1">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="10" Y="16" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow.UIMDMRisksOperRiskMessDocument.UIItem99507e9f627754dcPane">
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="1" Y="1" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Hover</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <ErrorAction>
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <Message>Last mouse action was not recorded.</Message>
+    </ErrorAction>
+    <SetValueAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow.UIMDMRisksOperRiskMessDocument.UIItem23af2bde5d664014Frame.UIMDMRisksOperRiskMessDocument.UIQuickSearchTxtEdit">
+      <ParameterName />
+      <Value Encoded="false" />
+      <Type>String</Type>
+    </SetValueAction>
+    <SendKeysAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow.UIMDMRisksOperRiskMessDocument.UIItem23af2bde5d664014Frame.UIMDMRisksOperRiskMessDocument.UIQuickSearchTxtEdit">
+      <ParameterName />
+      <ModifierKeys>Control</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">{LShiftKey}</Text>
+    </SendKeysAction>
+    <SendKeysAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow.UIMDMRisksOperRiskMessDocument.UIItem23af2bde5d664014Frame.UIMDMRisksOperRiskMessDocument.UIQuickSearchTxtEdit">
+      <ParameterName />
+      <ModifierKeys>Shift</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">{LMenu}</Text>
+    </SendKeysAction>
+    <SendKeysAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow.UIItemWindow1.UIПриложениеMenuBar">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">б</Text>
+    </SendKeysAction>
+    <SendKeysAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow.UIПриложениеMenuBar.UIФайлMenuItem">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">е</Text>
+    </SendKeysAction>
+    <SetValueAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow.UIMDMRisksOperRiskMessDocument.UIItem23af2bde5d664014Frame.UIMDMRisksOperRiskMessDocument.UIQuickSearchTxtEdit">
+      <ParameterName />
+      <Value Encoded="false">безопаснос</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SendKeysAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow.UIMDMRisksOperRiskMessDocument.UIItem23af2bde5d664014Frame.UIMDMRisksOperRiskMessDocument.UIQuickSearchTxtEdit">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">{Enter}</Text>
+    </SendKeysAction>
+    <MouseAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow.UIMDMRisksOperRiskMessDocument.UIItem23af2bde5d664014Frame.UIMDMRisksOperRiskMessDocument.UI_b426f41880d14d868c5Pane.UIДепартаментбезопасноPane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="163" Y="16" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow.UIMDMRisksOperRiskMessDocument.UIItem23af2bde5d664014Frame">
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="1" Y="1" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Hover</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow.UIMDMRisksOperRiskMessDocument.UIItem602840498c6a2e4dPane">
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="1" Y="1" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Hover</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow.UIMDMRisksOperRiskMessDocument.UIItem534754b59cd03512Pane.UIItemPane">
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="1" Y="1" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Hover</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow.UIMDMRisksOperRiskMessDocument.UIItemHyperlink2">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="5" Y="8" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SetValueAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow.UIMDMRisksOperRiskMessDocument.UIBdd51a96fe38452fbcdaFrame.UIMDMRisksOtherSubdiviDocument.UIQuickSearchTxtEdit">
+      <ParameterName />
+      <Value Encoded="false">новосиб</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SendKeysAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow.UIMDMRisksOperRiskMessDocument.UIBdd51a96fe38452fbcdaFrame.UIMDMRisksOtherSubdiviDocument.UIQuickSearchTxtEdit">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">{Enter}</Text>
+    </SendKeysAction>
+    <MouseAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow.UIMDMRisksOperRiskMessDocument.UIBdd51a96fe38452fbcdaFrame.UIMDMRisksOtherSubdiviDocument.UI_ec049dadd1214d99939Pane.UIГНовосибирскДОАкадемPane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="81" Y="6" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow.UIMDMRisksOperRiskMessDocument.UIBdd51a96fe38452fbcdaFrame">
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="1" Y="1" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Hover</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow.UIMDMRisksOperRiskMessDocument.UIВыберитезначениеPane.UIВыберитезначениеHyperlink">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="270" Y="8" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow.UIMDMRisksOperRiskMessDocument.UIItem92c72a0296062600Pane.UIItem5МошенничествоипHyperlink">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="159" Y="16" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow.UIMDMRisksOperRiskMessDocument.UIВыберитезначениеPane1.UIВыберитезначениеHyperlink">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="62" Y="12" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMSNРоссияновостипогоWindow.UIMDMRisksOperRiskMessDocument.UIItem92c72a0296062600Pane1.UIItem536НеправомерноеHyperlink">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="73" Y="11" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod1">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+  </ExecuteActions>
+  <CleanupActions />
+  <OnErrorActions />
+  <Maps>
+    <UIMap Id="UIMap">
+      <TopLevelWindows>
+        <TopLevelWindow ControlType="Window" Id="UIMSNРоссияновостипогоWindow" FriendlyName="MSN Россия: новости, погода, спорт, фото, видео - ..." SpecialControlType="BrowserWindow" SessionId="12979800">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>MSN Россия: новости, погода, спорт, фото, видео</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="Name">MSN Россия: новости, погода, спорт, фото, видео</PropertyCondition>
+            <PropertyCondition Name="ClassName">IEFrame</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Window" Id="UIItemWindow" FriendlyName="" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>MSN Россия: новости, погода, спорт, фото, видео</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ClassName">AddressDisplay Control</PropertyCondition>
+                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Client" Id="UIАдреснаястрокаClient" FriendlyName="Адресная строка" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>MSN Россия: новости, погода, спорт, фото, видео</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="ControlType">Client</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Edit" Id="UIАдресEdit" FriendlyName="Адрес" SpecialControlType="None">
+                      <TechnologyName>MSAA</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>MSN Россия: новости, погода, спорт, фото, видео</WindowTitle>
+                      </WindowTitles>
+                      <SearchConfigurations>
+                        <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                      </SearchConfigurations>
+                      <AndCondition Id="SearchCondition">
+                        <PropertyCondition Name="Name">Адрес</PropertyCondition>
+                        <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Window" Id="UIАдреснаястрокаWindow" FriendlyName="Адресная строка" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ControlId">41477</PropertyCondition>
+                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Client" Id="UIАдреснаястрокаClient" FriendlyName="Адресная строка" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="Name">Адресная строка</PropertyCondition>
+                    <PropertyCondition Name="ControlType">Client</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Document" Id="UIMDMRisksOperRiskMessDocument" FriendlyName="MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage" SpecialControlType="None">
+              <TechnologyName>Web</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+              </WindowTitles>
+              <AndCondition Id="SearchCondition">
+                <AndCondition Id="Primary">
+                  <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                  <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                  <PropertyCondition Name="Id" />
+                  <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                  <PropertyCondition Name="FrameDocument">False</PropertyCondition>
+                </AndCondition>
+                <FilterCondition Id="Secondary">
+                  <PropertyCondition Name="Title">MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</PropertyCondition>
+                  <PropertyCondition Name="AbsolutePath">/Runtime/Runtime/Form/MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage/</PropertyCondition>
+                  <PropertyCondition Name="PageUrl">http://k2/Runtime/Runtime/Form/MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage/</PropertyCondition>
+                </FilterCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Cell" Id="UIПараметрыдекларациииCell" FriendlyName="Параметры декларации инцидента" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                      <PropertyCondition Name="TagName">TD</PropertyCondition>
+                      <PropertyCondition Name="Id">cce64eb7-db07-c7af-8bb2-3fd4224a9c05</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="InnerText">Параметры декларации инцидента</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="ControlDefinition">class="editor-cell droptarget" id="cce64eb7-db07-c7af-8bb2-3fd4224a9c05" style="width: 25%; text-align: center; vertical-align: middle;" colspan="6"</PropertyCondition>
+                      <PropertyCondition Name="RowIndex">0</PropertyCondition>
+                      <PropertyCondition Name="ColumnIndex">0</PropertyCondition>
+                      <PropertyCondition Name="Class">editor-cell droptarget</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">2</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Hyperlink" Id="UIItemHyperlink" FriendlyName=" ..." SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Hyperlink</PropertyCondition>
+                      <PropertyCondition Name="TagName">A</PropertyCondition>
+                      <PropertyCondition Name="Id">92c72a02-9606-2600-7dfd-358d0ba4d061_153f5c40-6e81-4a13-3b30-789f0f00fa81_CalendarIcon</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="Target" />
+                      <PropertyCondition Name="InnerText">
+...</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="AbsolutePath">;</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Href">javascript:;</PropertyCondition>
+                      <PropertyCondition Name="Class">SimpleCalendarIcon</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class="SimpleCalendarIcon" id="92c72a02-</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">12</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UIUidatepickerdivPane" FriendlyName="ui-datepicker-div" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                      <PropertyCondition Name="Id">ui-datepicker-div</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">&lt;
+
+&gt;
+
+Декабрь 2015
+
+
+Пн
+
+Вт
+
+</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all" id="ui-datepicker-div" style="left: 491.73px; top: 527.72px; display: block; position: absolute; z-index: 1;"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">953</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Hyperlink" Id="UIItem4Hyperlink" FriendlyName="4" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Hyperlink</PropertyCondition>
+                          <PropertyCondition Name="TagName">A</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="Target" />
+                          <PropertyCondition Name="InnerText">4</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="AbsolutePath">/Runtime/Runtime/Form/MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage/</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Href">http://k2/Runtime/Runtime/Form/MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage/#</PropertyCondition>
+                          <PropertyCondition Name="Class">ui-state-default</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">class="ui-state-default" href="#"</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">6</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Hyperlink" Id="UIItem10Hyperlink" FriendlyName="10" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Hyperlink</PropertyCondition>
+                          <PropertyCondition Name="TagName">A</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="Target" />
+                          <PropertyCondition Name="InnerText">10</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="AbsolutePath">/Runtime/Runtime/Form/MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage/</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Href">http://k2/Runtime/Runtime/Form/MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage/#</PropertyCondition>
+                          <PropertyCondition Name="Class">ui-state-default</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">class="ui-state-default" href="#"</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">12</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Table" Id="UIItemTable" FriendlyName="" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Table</PropertyCondition>
+                          <PropertyCondition Name="TagName">TABLE</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="InnerText">Пн
+
+Вт
+
+Ср
+
+Чт
+
+Пт
+
+Сб
+
+Вс
+</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">class="ui-datepicker-calendar"</PropertyCondition>
+                          <PropertyCondition Name="RowCount">6</PropertyCondition>
+                          <PropertyCondition Name="ColumnCount">7</PropertyCondition>
+                          <PropertyCondition Name="Class">ui-datepicker-calendar</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">19</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Cell" Id="UIItem17Cell" FriendlyName="17" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                              <PropertyCondition Name="TagName">TD</PropertyCondition>
+                              <PropertyCondition Name="Id" />
+                              <PropertyCondition Name="Name" />
+                              <PropertyCondition Name="MaxDepth">3</PropertyCondition>
+                              <PropertyCondition Name="InnerText">17</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="ControlDefinition">class=" " data-event="click" data-handler="selectDay" data-year="2015" data-month="11"</PropertyCondition>
+                              <PropertyCondition Name="RowIndex">3</PropertyCondition>
+                              <PropertyCondition Name="ColumnIndex">3</PropertyCondition>
+                              <PropertyCondition Name="Class">\ </PropertyCondition>
+                              <PropertyCondition Name="TagInstance">267</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                        <UIObject ControlType="Cell" Id="UIItem18Cell" FriendlyName="18" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                              <PropertyCondition Name="TagName">TD</PropertyCondition>
+                              <PropertyCondition Name="Id" />
+                              <PropertyCondition Name="Name" />
+                              <PropertyCondition Name="MaxDepth">3</PropertyCondition>
+                              <PropertyCondition Name="InnerText">18</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="ControlDefinition">class=" " data-event="click" data-handler="selectDay" data-year="2015" data-month="11"</PropertyCondition>
+                              <PropertyCondition Name="RowIndex">3</PropertyCondition>
+                              <PropertyCondition Name="ColumnIndex">4</PropertyCondition>
+                              <PropertyCondition Name="Class">\ </PropertyCondition>
+                              <PropertyCondition Name="TagInstance">268</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                    <UIObject ControlType="Hyperlink" Id="UIItem17Hyperlink" FriendlyName="17" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Hyperlink</PropertyCondition>
+                          <PropertyCondition Name="TagName">A</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="Target" />
+                          <PropertyCondition Name="InnerText">17</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="AbsolutePath">/Runtime/Runtime/Form/MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage/</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Href">http://k2/Runtime/Runtime/Form/MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage/#</PropertyCondition>
+                          <PropertyCondition Name="Class">ui-state-default</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">class="ui-state-default" href="#"</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">19</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Cell" Id="UIВведитезначениеCell" FriendlyName="Введите значение" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                      <PropertyCondition Name="TagName">TD</PropertyCondition>
+                      <PropertyCondition Name="Id">5ee2e1d1-810b-42db-a13b-286b14827545</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="InnerText">Введите значение</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="ControlDefinition">class="editor-cell droptarget" id="5ee2e1d1-810b-42db-a13b-286b14827545" colspan="4"</PropertyCondition>
+                      <PropertyCondition Name="RowIndex">17</PropertyCondition>
+                      <PropertyCondition Name="ColumnIndex">1</PropertyCondition>
+                      <PropertyCondition Name="Class">editor-cell droptarget</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">83</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Pane" Id="UIВведитезначениеPane" FriendlyName="Введите значение" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                          <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="InnerText">Введите значение</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Class">input-control-watermark</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">class="input-control-watermark"</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">176</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Edit" Id="UITextAreaEdit" FriendlyName="TextArea" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      <PropertyCondition Name="TagName">TEXTAREA</PropertyCondition>
+                      <PropertyCondition Name="Id">92c72a02-9606-2600-7dfd-358d0ba4d061_360fd193-7cc6-9cb6-95c4-c6f69bea93a1_TextArea</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="LabeledBy" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class" />
+                      <PropertyCondition Name="ControlDefinition">tabindex="0" id="92c72a02-9606-2600-7dfd</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Hyperlink" Id="UIItemHyperlink1" FriendlyName=" ..." SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Hyperlink</PropertyCondition>
+                      <PropertyCondition Name="TagName">A</PropertyCondition>
+                      <PropertyCondition Name="Id">92c72a02-9606-2600-7dfd-358d0ba4d061_c9341dcf-ec8b-8e02-36bb-566471077f3a_LookupLink</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="Target" />
+                      <PropertyCondition Name="InnerText">
+...</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="AbsolutePath">;</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Href">javascript:;</PropertyCondition>
+                      <PropertyCondition Name="Class">ellipsis border-left-only</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">tabindex="0" class="ellipsis border-left</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">5</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UIItem99507e9f627754dcPane" FriendlyName="99507e9f-6277-54dc-bb26-d5f889ccf6ad" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                      <PropertyCondition Name="Id">99507e9f-6277-54dc-bb26-d5f889ccf6ad</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText" />
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">base2 base1 modalizer modal-element</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class="base2 base1 modalizer modal-element" id="99507e9f-6277-54dc-bb26-d5f889ccf6ad"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">1013</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Frame" Id="UIItem23af2bde5d664014Frame" FriendlyName="23af2bde-5d66-4014-82f4-8d40ff593489_1" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Frame</PropertyCondition>
+                      <PropertyCondition Name="TagName">IFRAME</PropertyCondition>
+                      <PropertyCondition Name="Id" />
+                      <PropertyCondition Name="Name">23af2bde-5d66-4014-82f4-8d40ff593489_1</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="AbsolutePath" />
+                      <PropertyCondition Name="PageUrl" />
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">runtime-popup</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">name="23af2bde-5d66-4014-82f4-8d40ff5934</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">3</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Document" Id="UIMDMRisksOperRiskMessDocument" FriendlyName="MDM.Risks.OperRiskMessage.VWl.RiskCoordinators" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                          <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                          <PropertyCondition Name="FrameDocument">True</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="Title">MDM.Risks.OperRiskMessage.VWl.RiskCoordinators</PropertyCondition>
+                          <PropertyCondition Name="AbsolutePath">/Runtime/Runtime/View.aspx</PropertyCondition>
+                          <PropertyCondition Name="PageUrl">http://k2/Runtime/Runtime/View.aspx?_ID=b426f418-80d1-4d86-8c54-4a35a88ca682</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Edit" Id="UIQuickSearchTxtEdit" FriendlyName="quickSearchTxt" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                              <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                              <PropertyCondition Name="Id">00000000-0000-0000-0000-000000000000_b426f418-80d1-4d86-8c54-4a35a88ca682_quickSearchTxt</PropertyCondition>
+                              <PropertyCondition Name="Name" />
+                              <PropertyCondition Name="LabeledBy" />
+                              <PropertyCondition Name="Type">SINGLELINE</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="Title" />
+                              <PropertyCondition Name="Class">input-control</PropertyCondition>
+                              <PropertyCondition Name="ControlDefinition">tabindex="0" class="input-control" id="0</PropertyCondition>
+                              <PropertyCondition Name="TagInstance">15</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                        <UIObject ControlType="Pane" Id="UI_b426f41880d14d868c5Pane" FriendlyName="_b426f418-80d1-4d86-8c54-4a35a88ca682" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                              <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                              <PropertyCondition Name="Id">_b426f418-80d1-4d86-8c54-4a35a88ca682</PropertyCondition>
+                              <PropertyCondition Name="Name" />
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="InnerText">Поиск по названию:
+ /* скрываем контрол</PropertyCondition>
+                              <PropertyCondition Name="Title" />
+                              <PropertyCondition Name="Class"> visible grid bw enter-commits-behaviour without-header with-double-toolbar without-rownumbering without-aggregation without-summary without-footer</PropertyCondition>
+                              <PropertyCondition Name="ControlDefinition">class=" visible grid bw enter-commits-behaviour without-header with-double-toolbar without-rownumbering without-aggregation without-summary without-footer" id="_b426f418-80d1-4d86-8c54-4a35a88ca682" data-areaitemid="00000000-0000-0000-0000-000000000000" isdisabled="false" previousactionxml='&lt;Action ID="b4d7f837-743c-4924-85e0-51029c61cd65" DefinitionID="f017a3ea-8f3a-42f8-87df-3d89aa69d50a" Type="Execute" ExecutionType="Synchronous" IsReference="False" IsInherited="False" ItemState="All" Location="View" Method="ADgOfjT_aP-_ieLoiCtilcqHErPpc4ILFpyOqMNl1HQw6bqJQFDg0YAry976w0afpeUHy7fsWN4v3guNZ0nkn1amvBbzNdF7enWxOyxoFsTNTH9u_AzJt-dBsJkdYR2G0" ViewID="b426f418-80d1-4d86-8c54-4a35a88ca682" OriginalEventType="User"&gt;&lt;Parameters&gt;&lt;Parameter SourceID="00000000-0000-0000-0000-000000000000_e35d1883-de08-5fdd-dba5-173f851d8178" SourceType="Control" TargetID="isActive" TargetType="ObjectProperty" IsRequired="false"&gt;&lt;PreviousValue&gt;true&lt;/PreviousValue&gt;&lt;/Parameter&gt;&lt;/Parameters&gt;&lt;Results&gt;&lt;Result SourceType="ObjectProperty" SourceID="ID" TargetType="ViewField" TargetID="0dc73b61-edae-b357-cb93-83915ea37889"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="ContentType" TargetType="ViewField" TargetID="2c13d26e-5470-8c35-9480-5fec5c9b7193"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="Modified" TargetType="ViewField" TargetID="adb174e5-e810-9af8-a012-2c58d339b8e5"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="Created" TargetType="ViewField" TargetID="e19be09e-cc2b-5cdb-6800-b324b559ac9a"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="Author" TargetType="ViewField" TargetID="878ae659-1524-8c6e-794a-9de92e21f765"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="Editor" TargetType="ViewField" TargetID="e971e4bb-8c0b-bf6e-5880-c85750cfe1c7"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="ItemChildCount" TargetType="ViewField" TargetID="0215dbe8-2107-1160-8c25-2f6b608d3647"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="ItemChildCount_ID_K2_ServiceDefined" TargetType="ViewField" TargetID="86b0324c-3cb0-3c1a-424d-807b761c686e"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="FolderChildCount" TargetType="ViewField" TargetID="d0eee8b4-bc54-80ba-ed4d-1a4fff68f798"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="FolderChildCount_ID_K2_ServiceDefined" TargetType="ViewField" TargetID="bb8626ac-363b-05fb-0212-da589fa3aa5a"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="coordinator" TargetType="ViewField" TargetID="9fdb936a-5efb-1823-f4bf-c691c2a7fae6"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="reference_code" TargetType="ViewField" TargetID="221232f3-870a-4976-3fd5-fdf90d6386f2"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="block" TargetType="ViewField" TargetID="b197303e-2e19-1ab2-bdd4-765158a4bd98"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="block_ID_K2_ServiceDefined" TargetType="ViewField" TargetID="73a183e6-58b9-1f6c-f4a8-a64423122ece"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="department" TargetType="ViewField" TargetID="7cc64ba0-c6bc-de57-8fff-ad65f35a5414"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="department_ID_K2_ServiceDefined" TargetType="ViewField" TargetID="719baaa5-58c1-771a-4173-e0591afd5c09"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="coordinator_fullname" TargetType="ViewField" TargetID="1419058a-d625-d270-2aa0-af740f2854a4"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="LinkToItem_K2_ServiceDefined" TargetType="ViewField" TargetID="a22302d8-2f3a-b464-5bad-a9da0018ce9e"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="Folder_K2_ServiceDefined" TargetType="ViewField" TargetID="979aab6e-9231-87ad-c4f1-29b5615dda46"/&gt;&lt;/Results&gt;&lt;/Action&gt;' actionxml='&lt;Action ID="b4d7f837-743c-4924-85e0-51029c61cd65" DefinitionID="f017a3ea-8f3a-42f8-87df-3d89aa69d50a" Type="Execute" ExecutionType="Synchronous" IsReference="False" IsInherited="False" ItemState="All" Location="View" Method="ADgOfjT_aP-_ieLoiCtilcqHErPpc4ILFpyOqMNl1HQw6bqJQFDg0YAry976w0afpeUHy7fsWN4v3guNZ0nkn1amvBbzNdF7enWxOyxoFsTNTH9u_AzJt-dBsJkdYR2G0" ViewID="b426f418-80d1-4d86-8c54-4a35a88ca682" OriginalEventType="User"&gt;&lt;Parameters&gt;&lt;Parameter SourceID="00000000-0000-0000-0000-000000000000_e35d1883-de08-5fdd-dba5-173f851d8178" SourceType="Control" TargetID="isActive" TargetType="ObjectProperty" IsRequired="false"&gt;&lt;PreviousValue&gt;true&lt;/PreviousValue&gt;&lt;/Parameter&gt;&lt;/Parameters&gt;&lt;Results&gt;&lt;Result SourceType="ObjectProperty" SourceID="ID" TargetType="ViewField" TargetID="0dc73b61-edae-b357-cb93-83915ea37889"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="ContentType" TargetType="ViewField" TargetID="2c13d26e-5470-8c35-9480-5fec5c9b7193"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="Modified" TargetType="ViewField" TargetID="adb174e5-e810-9af8-a012-2c58d339b8e5"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="Created" TargetType="ViewField" TargetID="e19be09e-cc2b-5cdb-6800-b324b559ac9a"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="Author" TargetType="ViewField" TargetID="878ae659-1524-8c6e-794a-9de92e21f765"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="Editor" TargetType="ViewField" TargetID="e971e4bb-8c0b-bf6e-5880-c85750cfe1c7"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="ItemChildCount" TargetType="ViewField" TargetID="0215dbe8-2107-1160-8c25-2f6b608d3647"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="ItemChildCount_ID_K2_ServiceDefined" TargetType="ViewField" TargetID="86b0324c-3cb0-3c1a-424d-807b761c686e"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="FolderChildCount" TargetType="ViewField" TargetID="d0eee8b4-bc54-80ba-ed4d-1a4fff68f798"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="FolderChildCount_ID_K2_ServiceDefined" TargetType="ViewField" TargetID="bb8626ac-363b-05fb-0212-da589fa3aa5a"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="coordinator" TargetType="ViewField" TargetID="9fdb936a-5efb-1823-f4bf-c691c2a7fae6"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="reference_code" TargetType="ViewField" TargetID="221232f3-870a-4976-3fd5-fdf90d6386f2"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="block" TargetType="ViewField" TargetID="b197303e-2e19-1ab2-bdd4-765158a4bd98"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="block_ID_K2_ServiceDefined" TargetType="ViewField" TargetID="73a183e6-58b9-1f6c-f4a8-a64423122ece"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="department" TargetType="ViewField" TargetID="7cc64ba0-c6bc-de57-8fff-ad65f35a5414"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="department_ID_K2_ServiceDefined" TargetType="ViewField" TargetID="719baaa5-58c1-771a-4173-e0591afd5c09"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="coordinator_fullname" TargetType="ViewField" TargetID="1419058a-d625-d270-2aa0-af740f2854a4"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="LinkToItem_K2_ServiceDefined" TargetType="ViewField" TargetID="a22302d8-2f3a-b464-5bad-a9da0018ce9e"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="Folder_K2_ServiceDefined" TargetType="ViewField" TargetID="979aab6e-9231-87ad-c4f1-29b5615dda46"/&gt;&lt;/Results&gt;&lt;/Action&gt;' maxcounter="1" Paging="false" QFName="[All]primary_2041d646-5ce8-4d36-bb37-3cf5611c7a4a_2041d646-5ce8-4d36-bb37-3cf5611c7a4a.block|primary_2041d646-5ce8-4d36-bb37-3cf5611c7a4a_2041d646-5ce8-4d36-bb37-3cf5611c7a4a.department|primary_2041d646-5ce8-4d36-bb37-3cf5611c7a4a_2041d646-5ce8-4d36-bb37-3cf5611c7a4a.coordinator_fullname|primary_2041d646-5ce8-4d36-bb37-3cf5611c7a4a_2041d646-5ce8-4d36-bb37-3cf5611c7a4a.reference_code|" QFValue="безопаснос"</PropertyCondition>
+                              <PropertyCondition Name="TagInstance">3</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Pane" Id="UIДепартаментбезопасноPane" FriendlyName="Департамент безопасности" SpecialControlType="None">
+                              <TechnologyName>Web</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition Id="SearchCondition">
+                                <AndCondition Id="Primary">
+                                  <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                                  <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                                  <PropertyCondition Name="Id" />
+                                  <PropertyCondition Name="Name" />
+                                </AndCondition>
+                                <FilterCondition Id="Secondary">
+                                  <PropertyCondition Name="InnerText">Департамент безопасности</PropertyCondition>
+                                  <PropertyCondition Name="Title">Департамент безопасности</PropertyCondition>
+                                  <PropertyCondition Name="Class">grid-content-cell-wrapper</PropertyCondition>
+                                  <PropertyCondition Name="ControlDefinition">title="Департамент безопасности" class="grid-content-cell-wrapper"</PropertyCondition>
+                                  <PropertyCondition Name="TagInstance">95</PropertyCondition>
+                                </FilterCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UIItem602840498c6a2e4dPane" FriendlyName="60284049-8c6a-2e4d-025d-12a1d431389a_ajaxLoader" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                      <PropertyCondition Name="Id">60284049-8c6a-2e4d-025d-12a1d431389a_ajaxLoader</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText" />
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">base0 ajaxLoader modal-element</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class="base0 ajaxLoader modal-element" id="60284049-8c6a-2e4d-025d-12a1d431389a_ajaxLoader" style="left: 24px; top: 85px; width: 1855px; height: 995.03px;"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">1013</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UIItem534754b59cd03512Pane" FriendlyName="534754b5-9cd0-3512-a9fd-65bce8a2d5fb" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                      <PropertyCondition Name="Id">534754b5-9cd0-3512-a9fd-65bce8a2d5fb</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText" />
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">base2 base1 modalizer modal-element</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class="base2 base1 modalizer modal-element" id="534754b5-9cd0-3512-a9fd-65bce8a2d5fb"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">1013</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Pane" Id="UIItemPane" FriendlyName="" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                          <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="InnerText" />
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Class">base2 base1 ajaxLoader modal-element</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">class="base2 base1 ajaxLoader modal-element" style="display: block;"</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">1014</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Hyperlink" Id="UIItemHyperlink2" FriendlyName=" ..." SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Hyperlink</PropertyCondition>
+                      <PropertyCondition Name="TagName">A</PropertyCondition>
+                      <PropertyCondition Name="Id">92c72a02-9606-2600-7dfd-358d0ba4d061_d3db661b-ab66-01fc-575e-4c9300776d4e_LookupLink</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="Target" />
+                      <PropertyCondition Name="InnerText">
+...</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="AbsolutePath">;</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Href">javascript:;</PropertyCondition>
+                      <PropertyCondition Name="Class">ellipsis border-left-only</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">tabindex="0" class="ellipsis border-left</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">11</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Frame" Id="UIBdd51a96fe38452fbcdaFrame" FriendlyName="bdd51a96-fe38-452f-bcda-85a8be3788a3_1" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Frame</PropertyCondition>
+                      <PropertyCondition Name="TagName">IFRAME</PropertyCondition>
+                      <PropertyCondition Name="Id" />
+                      <PropertyCondition Name="Name">bdd51a96-fe38-452f-bcda-85a8be3788a3_1</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="AbsolutePath" />
+                      <PropertyCondition Name="PageUrl" />
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">runtime-popup</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">name="bdd51a96-fe38-452f-bcda-85a8be3788</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">3</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Document" Id="UIMDMRisksOtherSubdiviDocument" FriendlyName="MDM.Risks.OtherSubdivisionListView" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                          <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                          <PropertyCondition Name="FrameDocument">True</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="Title">MDM.Risks.OtherSubdivisionListView</PropertyCondition>
+                          <PropertyCondition Name="AbsolutePath">/Runtime/Runtime/View.aspx</PropertyCondition>
+                          <PropertyCondition Name="PageUrl">http://k2/Runtime/Runtime/View.aspx?_ID=ec049dad-d121-4d99-939e-ff8d1742442b</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Edit" Id="UIQuickSearchTxtEdit" FriendlyName="quickSearchTxt" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                              <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                              <PropertyCondition Name="Id">00000000-0000-0000-0000-000000000000_ec049dad-d121-4d99-939e-ff8d1742442b_quickSearchTxt</PropertyCondition>
+                              <PropertyCondition Name="Name" />
+                              <PropertyCondition Name="LabeledBy" />
+                              <PropertyCondition Name="Type">SINGLELINE</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="Title" />
+                              <PropertyCondition Name="Class">input-control</PropertyCondition>
+                              <PropertyCondition Name="ControlDefinition">tabindex="0" class="input-control" id="0</PropertyCondition>
+                              <PropertyCondition Name="TagInstance">14</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                        <UIObject ControlType="Pane" Id="UI_ec049dadd1214d99939Pane" FriendlyName="_ec049dad-d121-4d99-939e-ff8d1742442b" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                              <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                              <PropertyCondition Name="Id">_ec049dad-d121-4d99-939e-ff8d1742442b</PropertyCondition>
+                              <PropertyCondition Name="Name" />
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="InnerText">Поиск по названию:
+ /* скрываем контрол</PropertyCondition>
+                              <PropertyCondition Name="Title" />
+                              <PropertyCondition Name="Class">visible grid bw enter-commits-behaviour without-header with-double-toolbar without-rownumbering without-aggregation without-summary with-footer</PropertyCondition>
+                              <PropertyCondition Name="ControlDefinition">class="visible grid bw enter-commits-behaviour without-header with-double-toolbar without-rownumbering without-aggregation without-summary with-footer" id="_ec049dad-d121-4d99-939e-ff8d1742442b" data-areaitemid="00000000-0000-0000-0000-000000000000" isdisabled="false" previousactionxml='&lt;Action ID="f08b803c-ead2-4618-b744-b32995163fd0" DefinitionID="2e522beb-6fbe-4c13-88ce-10b55acfdc13" Type="Execute" ExecutionType="Synchronous" IsReference="False" IsInherited="False" ItemState="All" Location="View" Method="BoGjt01vjknBzTpoUS2wIKMTJLqTdrxm4PywUz5cXvfGoYIEwKRPqLmww4OaW_aaURIpjTnH0qEfUtLyvNkmgcGIJ7wkL064Ytj2UmmADIbe7bebK4vyfKLy4UgUPRUQ0" ViewID="ec049dad-d121-4d99-939e-ff8d1742442b" OriginalEventType="User"&gt;&lt;Order&gt;&lt;Sorters&gt;&lt;Sorter SourceType="ObjectProperty" SourceID="Title" Direction="Ascending" OrderByResultName="Primary_2d539e85-8bad-44d7-aa4a-49dd17797bf7_2d539e85-8bad-44d7-aa4a-49dd17797bf7" OrderBy="Title"/&gt;&lt;/Sorters&gt;&lt;/Order&gt;&lt;Parameters&gt;&lt;Parameter SourceID="sources" SourceType="Value" TargetID="isActive" TargetType="ObjectProperty" IsRequired="false"&gt;&lt;SourceValue&gt;True&lt;/SourceValue&gt;&lt;PreviousValue&gt;True&lt;/PreviousValue&gt;&lt;/Parameter&gt;&lt;/Parameters&gt;&lt;Results&gt;&lt;Result SourceType="ObjectProperty" SourceID="Title" TargetType="ViewField" TargetID="72e52793-78ab-979b-b727-99ab362d9e25"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="ID" TargetType="ViewField" TargetID="531122b5-70bf-fe26-2a2b-7bb7a8d18505"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="ContentType" TargetType="ViewField" TargetID="c687f1bb-39c2-be60-0b1c-58908f39b277"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="Modified" TargetType="ViewField" TargetID="eecc4b85-7124-fd41-02f5-8251b7eae0c7"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="Created" TargetType="ViewField" TargetID="52c5a51b-a97e-f0cd-c3a6-c70fa12a38e3"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="Author" TargetType="ViewField" TargetID="213416bf-ee2e-2416-564e-a2b6f4bbe188"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="Editor" TargetType="ViewField" TargetID="69655090-5a1f-835e-e2ff-5bf470e84719"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="ItemChildCount" TargetType="ViewField" TargetID="ad1ba811-0a0c-696d-ba90-4fcee80285a3"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="ItemChildCount_ID_K2_ServiceDefined" TargetType="ViewField" TargetID="d42be06e-c5a2-d20c-d2e5-8d1fd2bc58e9"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="FolderChildCount" TargetType="ViewField" TargetID="f0d16b4b-1e57-9a33-7a31-e695969df1b5"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="FolderChildCount_ID_K2_ServiceDefined" TargetType="ViewField" TargetID="446b8b1b-cb7d-8b8b-efdf-dc086777fce8"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="LinkToItem_K2_ServiceDefined" TargetType="ViewField" TargetID="c5cc6f9c-9d47-c456-09d8-154ee12af57a"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="Folder_K2_ServiceDefined" TargetType="ViewField" TargetID="c9432c7b-35e5-c5a3-3142-b235381050ff"/&gt;&lt;/Results&gt;&lt;/Action&gt;' actionxml='&lt;Action ID="f08b803c-ead2-4618-b744-b32995163fd0" DefinitionID="2e522beb-6fbe-4c13-88ce-10b55acfdc13" Type="Execute" ExecutionType="Synchronous" IsReference="False" IsInherited="False" ItemState="All" Location="View" Method="BoGjt01vjknBzTpoUS2wIKMTJLqTdrxm4PywUz5cXvfGoYIEwKRPqLmww4OaW_aaURIpjTnH0qEfUtLyvNkmgcGIJ7wkL064Ytj2UmmADIbe7bebK4vyfKLy4UgUPRUQ0" ViewID="ec049dad-d121-4d99-939e-ff8d1742442b" OriginalEventType="User"&gt;&lt;Order&gt;&lt;Sorters&gt;&lt;Sorter SourceType="ObjectProperty" SourceID="Title" Direction="Ascending" OrderByResultName="Primary_2d539e85-8bad-44d7-aa4a-49dd17797bf7_2d539e85-8bad-44d7-aa4a-49dd17797bf7" OrderBy="Title"/&gt;&lt;/Sorters&gt;&lt;/Order&gt;&lt;Parameters&gt;&lt;Parameter SourceID="sources" SourceType="Value" TargetID="isActive" TargetType="ObjectProperty" IsRequired="false"&gt;&lt;SourceValue&gt;True&lt;/SourceValue&gt;&lt;PreviousValue&gt;True&lt;/PreviousValue&gt;&lt;/Parameter&gt;&lt;/Parameters&gt;&lt;Results&gt;&lt;Result SourceType="ObjectProperty" SourceID="Title" TargetType="ViewField" TargetID="72e52793-78ab-979b-b727-99ab362d9e25"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="ID" TargetType="ViewField" TargetID="531122b5-70bf-fe26-2a2b-7bb7a8d18505"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="ContentType" TargetType="ViewField" TargetID="c687f1bb-39c2-be60-0b1c-58908f39b277"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="Modified" TargetType="ViewField" TargetID="eecc4b85-7124-fd41-02f5-8251b7eae0c7"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="Created" TargetType="ViewField" TargetID="52c5a51b-a97e-f0cd-c3a6-c70fa12a38e3"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="Author" TargetType="ViewField" TargetID="213416bf-ee2e-2416-564e-a2b6f4bbe188"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="Editor" TargetType="ViewField" TargetID="69655090-5a1f-835e-e2ff-5bf470e84719"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="ItemChildCount" TargetType="ViewField" TargetID="ad1ba811-0a0c-696d-ba90-4fcee80285a3"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="ItemChildCount_ID_K2_ServiceDefined" TargetType="ViewField" TargetID="d42be06e-c5a2-d20c-d2e5-8d1fd2bc58e9"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="FolderChildCount" TargetType="ViewField" TargetID="f0d16b4b-1e57-9a33-7a31-e695969df1b5"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="FolderChildCount_ID_K2_ServiceDefined" TargetType="ViewField" TargetID="446b8b1b-cb7d-8b8b-efdf-dc086777fce8"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="LinkToItem_K2_ServiceDefined" TargetType="ViewField" TargetID="c5cc6f9c-9d47-c456-09d8-154ee12af57a"/&gt;&lt;Result SourceType="ObjectProperty" SourceID="Folder_K2_ServiceDefined" TargetType="ViewField" TargetID="c9432c7b-35e5-c5a3-3142-b235381050ff"/&gt;&lt;/Results&gt;&lt;/Action&gt;' maxcounter="12" QFName="[All]primary_2d539e85-8bad-44d7-aa4a-49dd17797bf7_2d539e85-8bad-44d7-aa4a-49dd17797bf7.title|" QFValue="новосиб" PageSize="20" PageNumber="1" HasRowCount="false" HasMorePages="false" NumberOfPages="1"</PropertyCondition>
+                              <PropertyCondition Name="TagInstance">3</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Pane" Id="UIГНовосибирскДОАкадемPane" FriendlyName="г. Новосибирск ДО Академический" SpecialControlType="None">
+                              <TechnologyName>Web</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition Id="SearchCondition">
+                                <AndCondition Id="Primary">
+                                  <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                                  <PropertyCondition Name="TagName">SPAN</PropertyCondition>
+                                  <PropertyCondition Name="Id" />
+                                  <PropertyCondition Name="Name" />
+                                </AndCondition>
+                                <FilterCondition Id="Secondary">
+                                  <PropertyCondition Name="InnerText">г. Новосибирск ДО Академический</PropertyCondition>
+                                  <PropertyCondition Name="Title" />
+                                  <PropertyCondition Name="Class">runtime-list-item</PropertyCondition>
+                                  <PropertyCondition Name="ControlDefinition">class="runtime-list-item" style="display: inline-block;"</PropertyCondition>
+                                  <PropertyCondition Name="TagInstance">16</PropertyCondition>
+                                </FilterCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UIВыберитезначениеPane" FriendlyName="Выберите значение ..." SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                      <PropertyCondition Name="Id">92c72a02-9606-2600-7dfd-358d0ba4d061_226db8c8-2f3f-04a4-98df-dbbb8faa3529</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">Выберите значение
+
+
+
+
+
+
+
+
+
+...</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">input-control select-box dropdown-box watermark</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class="input-control select-box dropdown-box watermark" id="92c72a02-9606-2600-7dfd-358d0ba4d061_226db8c8-2f3f-04a4-98df-dbbb8faa3529" style="width: 100%;"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">183</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Hyperlink" Id="UIВыберитезначениеHyperlink" FriendlyName="Выберите значение" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Hyperlink</PropertyCondition>
+                          <PropertyCondition Name="TagName">A</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="Target" />
+                          <PropertyCondition Name="InnerText">Выберите значение</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="AbsolutePath">;</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Href">javascript:;</PropertyCondition>
+                          <PropertyCondition Name="Class">input-control  styling-font</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">tabindex="0" class="input-control  styli</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UIItem92c72a0296062600Pane" FriendlyName="92c72a02-9606-2600-7dfd-358d0ba4d061_226db8c8-2f3f..." SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                      <PropertyCondition Name="Id">92c72a02-9606-2600-7dfd-358d0ba4d061_226db8c8-2f3f-04a4-98df-dbbb8faa3529_droplist</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">1 Возникновение конфликтов при осуществл</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">drop-menu</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class="drop-menu" id="92c72a02-9606-2600-7dfd-358d0ba4d061_226db8c8-2f3f-04a4-98df-dbbb8faa3529_droplist" style="left: 492px; top: 677px; width: 743px; height: auto; position: absolute; z-index: 1; max-height: 655px; min-width: 743px;"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">999</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Hyperlink" Id="UIItem5МошенничествоипHyperlink" FriendlyName="5 Мошенничество и преступления" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Hyperlink</PropertyCondition>
+                          <PropertyCondition Name="TagName">A</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="Target" />
+                          <PropertyCondition Name="InnerText">5 Мошенничество и преступления</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="AbsolutePath">;</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Href">javascript:;</PropertyCondition>
+                          <PropertyCondition Name="Class" />
+                          <PropertyCondition Name="ControlDefinition">href="javascript:;"</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">6</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UIВыберитезначениеPane1" FriendlyName="Выберите значение ..." SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                      <PropertyCondition Name="Id">92c72a02-9606-2600-7dfd-358d0ba4d061_33699c4d-93c2-e756-3859-2bb7c074c38b</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">Выберите значение
+
+
+
+
+
+
+
+
+
+...</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">input-control select-box dropdown-box watermark</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class="input-control select-box dropdown-box watermark" id="92c72a02-9606-2600-7dfd-358d0ba4d061_33699c4d-93c2-e756-3859-2bb7c074c38b" style="width: 100%;"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">200</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Hyperlink" Id="UIВыберитезначениеHyperlink" FriendlyName="Выберите значение" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Hyperlink</PropertyCondition>
+                          <PropertyCondition Name="TagName">A</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="Target" />
+                          <PropertyCondition Name="InnerText">Выберите значение</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="AbsolutePath">;</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Href">javascript:;</PropertyCondition>
+                          <PropertyCondition Name="Class">input-control  styling-font</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">tabindex="0" class="input-control  styli</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UIItem92c72a0296062600Pane1" FriendlyName="92c72a02-9606-2600-7dfd-358d0ba4d061_33699c4d-93c2..." SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                      <PropertyCondition Name="Id">92c72a02-9606-2600-7dfd-358d0ba4d061_33699c4d-93c2-e756-3859-2bb7c074c38b_droplist</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">5.32 Попытки взлома и прочих атак на ИТ </PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">drop-menu</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class="drop-menu" id="92c72a02-9606-2600-7dfd-358d0ba4d061_33699c4d-93c2-e756-3859-2bb7c074c38b_droplist" style="left: 492px; top: 701px; width: 743px; height: auto; position: absolute; z-index: 1; max-height: 679px; min-width: 743px;"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">999</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Hyperlink" Id="UIItem536НеправомерноеHyperlink" FriendlyName="5.36 Неправомерное использование конфиденциальной ..." SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Hyperlink</PropertyCondition>
+                          <PropertyCondition Name="TagName">A</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="Target" />
+                          <PropertyCondition Name="InnerText">5.36 Неправомерное использование конфиденциальной информации</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="AbsolutePath">;</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Href">javascript:;</PropertyCondition>
+                          <PropertyCondition Name="Class" />
+                          <PropertyCondition Name="ControlDefinition">href="javascript:;"</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">6</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Window" Id="UIItemWindow1" FriendlyName="" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ControlId">40965</PropertyCondition>
+                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+                <PropertyCondition Name="Instance">2</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="MenuBar" Id="UIПриложениеMenuBar" FriendlyName="Приложение" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="Name">Приложение</PropertyCondition>
+                    <PropertyCondition Name="ControlType">MenuBar</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="MenuBar" Id="UIПриложениеMenuBar" FriendlyName="Приложение" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="Name">Приложение</PropertyCondition>
+                <PropertyCondition Name="ControlType">MenuBar</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="MenuItem" Id="UIФайлMenuItem" FriendlyName="Файл" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>MDM.Risks.OperRiskMessageL.SMF.CreateNewMessage</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>Expand</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="Name">Файл</PropertyCondition>
+                    <PropertyCondition Name="ControlType">MenuItem</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+      </TopLevelWindows>
+    </UIMap>
+  </Maps>
+  <ValueMap>
+    <ParameterList />
+  </ValueMap>
+</UITest>

@@ -1,0 +1,127 @@
+﻿<#@ template debug="true" hostspecific="true" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ assembly name="System.Xml" #>
+<#@ assembly name="System.Xml.Linq" #>
+<#@ assembly name="$(SolutionDir)K2Smartforms.TestingLibrary\bin\Debug\K2Smartforms.TestingLibrary.dll" #>
+
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.IO" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Xml" #>
+<#@ import namespace="System.Xml.Linq" #>
+<#@ import namespace="System.Xml.XPath" #>
+
+<#@ import namespace="System.Xml.Serialization" #>
+<#@ import namespace="K2Smartforms.TestingLibrary" #>
+
+
+
+
+
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".cs" #>
+<#   
+   //template code - you get IntelliSense here
+	var str_fileName = "GlobalActionsElements.xml";
+	
+
+    // Certainly you would normally load the model data from a file using 
+	// the relative path of the template as shown below:
+	// string SampleInputFileContent = System.IO.File.ReadAllText( 
+    // System.IO.Path.GetDirectoryName(this.Host.TemplateFile) + "\\datafile.xml"); 
+ 	
+    string xmlPath = Path.Combine(Path.GetDirectoryName(Host.TemplateFile), @"..\Test\MDM.IT.SoftwareChange\Main.xml");
+    var xml = XDocument.Load(xmlPath);
+
+    var documents =
+    (from docs in xml.Root.Elements("Test")
+     select new
+     {
+         fileName = (string) docs.Attribute("fileName"),
+         description = (string) docs.Attribute("description")
+     }).ToList();
+
+
+
+	 var classes = from c in xml.Descendants("Tests") select c;
+
+#>
+using AllureCSharpCommons.AllureModel;
+using AllureCSharpCommons.Attributes;
+using NUnit.Framework;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using K2Smartforms.TestingLibrary;
+using System.Reflection;
+
+namespace K2.SmartForms.Testing
+{
+    [TestFixture]
+	public class Main2
+     {
+
+
+
+/// <summary>
+        /// Use as first line in ad hoc tests (needed by XNA specifically)
+        /// </summary>
+        public static void SetEntryAssembly()
+        {
+            SetEntryAssembly(Assembly.GetCallingAssembly());
+        }
+
+        /// <summary>
+        /// Allows setting the Entry Assembly when needed. 
+        /// Use AssemblyUtilities.SetEntryAssembly() as first line in XNA ad hoc tests
+        /// </summary>
+        /// <param name="assembly">Assembly to set as entry assembly</param>
+        public static void SetEntryAssembly(Assembly assembly)
+        {
+            AppDomainManager manager = new AppDomainManager();
+            FieldInfo entryAssemblyfield = manager.GetType().GetField("m_entryAssembly", BindingFlags.Instance | BindingFlags.NonPublic);
+            entryAssemblyfield.SetValue(manager, assembly);
+
+            AppDomain domain = AppDomain.CurrentDomain;
+            FieldInfo domainManagerField = domain.GetType().GetField("_domainManager", BindingFlags.Instance | BindingFlags.NonPublic);
+            domainManagerField.SetValue(domain, manager);
+        }
+
+
+<#
+	  
+foreach (var x in documents)
+{
+
+  
+     
+   
+    #>
+
+        [Test]
+        [AllureTitle("<#= x.fileName #>")]
+        [AllureDescription("<#= x.description #>", descriptiontype.text)]
+        [AllureSeverity(severitylevel.critical)]
+        [AllureStories("story", "story2")]
+        [AllureFeatures("feature", "feature2")]
+        public void <#= x.fileName #>()
+        {
+
+            SetEntryAssembly();
+
+            testSuite testInst = new testSuite("MDM.IT.SoftwareChange");
+
+            testInst.Run("<#= x.fileName #>");
+            
+
+        }
+
+
+<# 
+
+         }
+        #>
+     }
+}
