@@ -15,7 +15,9 @@ namespace K2Smartforms.TestingLibrary
 
         public static string getCurrFolderPath() {
 
-            return System.IO.Path.GetDirectoryName(Assembly.GetEntryAssembly().Location);
+            //return System.IO.Path.GetDirectoryName(Assembly.GetEntryAssembly().Location);
+            return System.IO.Path.GetDirectoryName(new Uri(Assembly.GetExecutingAssembly().CodeBase).LocalPath);
+            //return Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
 
         }
         public static string AppFolderCreator(string folderName)

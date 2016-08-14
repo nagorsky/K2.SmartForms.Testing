@@ -64,7 +64,16 @@ namespace K2Smartforms.TestingLibrary
                 ID = xmlNode.SelectSingleNode("@ID").InnerText;
                 DOMControlID = String.Format("{0}_Picture", ID);
             }
-                        
+
+            else if (xmlNode.OuterXml.Contains("SourceCode.Forms.Controls.Web.ControlPack.AutoComplete"))
+            {
+                type = SFControlType.AutoComplete;
+                ID = DOMControlID = xmlNode.SelectSingleNode("@ID").InnerText;
+
+            }
+
+
+
             else
             {
                 ID = DOMControlID = xmlNode.SelectSingleNode("@ID").InnerText;
@@ -89,5 +98,6 @@ namespace K2Smartforms.TestingLibrary
         FileUpload = 5,
         Picker = 6,
         Picture = 7,
+        AutoComplete = 8,
     }
 }

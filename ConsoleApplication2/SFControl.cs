@@ -63,7 +63,16 @@ namespace ConsoleApplication2
                 ID = xmlNode.SelectSingleNode("@ID").InnerText;
                 DOMControlID = String.Format("{0}_Picture", ID);
             }
-                        
+
+           else if (xmlNode.OuterXml.Contains("Web.ControlPack.AutoComplete"))
+            {
+                type = ConsoleApplication2.SFControlType.AutoComplete;
+                //ID = xmlNode.SelectSingleNode("@ID").InnerText;
+                //DOMControlID = String.Format("{0}_Picture", ID);
+                ID = DOMControlID = xmlNode.SelectSingleNode("@ID").InnerText;
+
+            }
+
             else
             {
                 ID = DOMControlID = xmlNode.SelectSingleNode("@ID").InnerText;
@@ -88,5 +97,6 @@ namespace ConsoleApplication2
         FileUpload = 5,
         Picker = 6,
         Picture = 7,
+        AutoComplete =8,
     }
 }

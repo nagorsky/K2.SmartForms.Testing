@@ -355,7 +355,7 @@ namespace K2Smartforms.TestingLibrary
 
                 string screenshot = screen.AsBase64EncodedString;
                 byte[] screenshotAsByteArray = screen.AsByteArray;
-                screen.SaveAsFile(Path.Combine(destPath, "\\..\\..\\..\\", string.Format("screen_{0:yyyy_MM_dd_HH_mm_ss}.png", DateTime.Now)), System.Drawing.Imaging.ImageFormat.Png);
+                screen.SaveAsFile(Path.Combine(destPath, string.Format("{0:yyyy_MM_dd_HH_mm_ss}.png", DateTime.Now)), System.Drawing.Imaging.ImageFormat.Png);
 
             }
             else
@@ -597,23 +597,25 @@ namespace K2Smartforms.TestingLibrary
                 {
 
                     findMyElement(step.attribute, step.attributeValue).SendKeys(step.value);
-
                     //Ждать не требуется, так как браузер вернет урпавление в код как только файл загружится (по крайней мере в FF такое поведение)
-
                     //var xxx2 = driver.FindElement(By.XPath(String.Format("//div[@id='{0}_FilePanel']", control.ID))).Text;
-
-
-
                     //if (xxx2.Contains("Uploading")) { 
-
-
                     //WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
                     //wait.IgnoreExceptionTypes(typeof(StaleElementReferenceException)); // ignore stale exception issues
                     //wait.Until(d => d.FindElement(By.XPath(String.Format("//div[@id='{0}_FilePanel']", control.ID))).Text.Contains("Uploading"));
-
                     //}
-
                     SwitchToParent();
+                }
+
+                else if (control.type == SFControlType.AutoComplete)
+                {
+
+                    findMyElement("jquery", String.Format("#{0} input.ui-autocomplete-input", control.ID)).SendKeys(step.value);
+                    driver.FindElement(By.CssSelector(".ui-menu-item  a.ui-corner-all"), 10).Click();
+
+
+                    //findMyElement("jquery", "").Click();
+                    
                 }
             }
 

@@ -389,14 +389,6 @@ namespace ConsoleApplication2
                 XmlDocument xmlDoc = new XmlDocument();
                 xmlDoc.LoadXml(xml);
 
-                //XmlSerializer serializer = new XmlSerializer(typeof(Controllers));
-                //Controllers i;
-
-                //using (XmlReader reader = XmlReader.Create(new StringReader(xml)))
-                //{
-                //    i = (Controllers)serializer.Deserialize(reader);
-                //}
-
 
                 XmlNode itemNodes = xmlDoc.SelectSingleNode("//Controls/Control[@Name='" + step.attributeValue + "']");
                 if (itemNodes == null) throw new Exception(String.Format("Cant find in SF Definition Control with name - {0}", step.attributeValue));
@@ -459,21 +451,19 @@ namespace ConsoleApplication2
                     findMyElement(step.attribute, step.attributeValue).SendKeys(step.value);
 
                     //Ждать не требуется, так как браузер вернет урпавление в код как только файл загружится (по крайней мере в FF такое поведение)
-
                     //var xxx2 = driver.FindElement(By.XPath(String.Format("//div[@id='{0}_FilePanel']", control.ID))).Text;
-
-
-
                     //if (xxx2.Contains("Uploading")) { 
-
-
                     //WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
                     //wait.IgnoreExceptionTypes(typeof(StaleElementReferenceException)); // ignore stale exception issues
                     //wait.Until(d => d.FindElement(By.XPath(String.Format("//div[@id='{0}_FilePanel']", control.ID))).Text.Contains("Uploading"));
-
                     //}
-
                     SwitchToParent();
+                }
+
+                else if (control.type == SFControlType.AutoComplete)
+                {
+
+                    
                 }
             }
 
