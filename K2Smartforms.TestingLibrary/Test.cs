@@ -101,7 +101,7 @@ namespace K2Smartforms.TestingLibrary
         public void Run(string testName)
         {
 
-            var testArray = from x in tests.Test where x.fileName == testName && x.TestEnabled == "True" select x;
+            var testArray = from x in tests.Test where x.fileName == testName && x.testEnabled == "True" select x;
 
             foreach (var test in testArray)
             {
@@ -173,6 +173,9 @@ namespace K2Smartforms.TestingLibrary
 
 
             TestDefActivity[] testDefActivity = testCollection[testName].Activity;
+            testDefActivity = (from act in testDefActivity
+                              where act.enabled == "True"
+                              select act).ToArray();
 
             foreach (var activity in testDefActivity)
             {

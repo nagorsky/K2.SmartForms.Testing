@@ -34,14 +34,15 @@
     var xml = XDocument.Load(xmlPath);
 
     var documents =
-    (from docs in xml.Root.Elements("Test")
+    (from docs in xml.Root.Elements("Test") 
      select new
      {
          fileName = (string) docs.Attribute("fileName"),
-         description = (string) docs.Attribute("description")
+         description = (string) docs.Attribute("description"),
+         testEnabled = (bool) docs.Attribute("testEnabled")
      }).ToList();
-
-
+      
+    
 
 	 var classes = from c in xml.Descendants("Tests") select c;
 
@@ -71,7 +72,7 @@ namespace K2.SmartForms.Testing
 foreach (var x in documents)
 {
 
-  
+        if(x.testEnabled  == false) continue; // пропускаем отлюченные тесты 
      
    
     #>

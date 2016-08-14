@@ -1,6 +1,6 @@
 <Tests>
-  <Test fileName="CreateRequestAndAllApprove" description="Создание заявки и согласование всеми участниками без отклонений"  TestEnabled="True" />
-  <Test fileName="CreateRequestAndAllApproveWithRework" description="Создание заявки, доработка, согласование всеми участниками"  TestEnabled="True" />
+  <Test fileName="CreateRequestAndAllApprove" description="Создание заявки и согласование всеми участниками без отклонений"  testEnabled="True" />
+  <Test fileName="CreateRequestAndAllApproveWithRework" description="Создание заявки, доработка, согласование всеми участниками"  testEnabled="False" />
   
   <Settings>
 	<BaseUrl value="" />

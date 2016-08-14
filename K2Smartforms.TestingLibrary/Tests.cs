@@ -85,7 +85,7 @@
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string TestEnabled
+        public string testEnabled
         {
             get
             {

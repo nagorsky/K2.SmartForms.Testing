@@ -45,25 +45,5 @@ namespace K2.SmartForms.Testing
         }
 
 
-
-        [Test]
-        [AllureTitle("CreateRequestAndAllApproveWithRework")]
-        [AllureDescription("Создание заявки, доработка, согласование всеми участниками", descriptiontype.text)]
-        [AllureSeverity(severitylevel.critical)]
-        [AllureStories("story", "story2")]
-        [AllureFeatures("feature", "feature2")]
-        [DeploymentItemAttribute("../../../Test")]
-        public void CreateRequestAndAllApproveWithRework()
-        {
-
-
-            testSuite testInst = new testSuite("MDM.IT.SoftwareChange");
-
-            testInst.Run("CreateRequestAndAllApproveWithRework");
-            
-
-        }
-
-
      }
 }

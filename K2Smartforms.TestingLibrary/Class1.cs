@@ -45,6 +45,7 @@ namespace K2Smartforms.TestingLibrary
         private string descriptionField;
 
         private string runAsUserField;
+        private string enabledField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
@@ -85,6 +86,20 @@ namespace K2Smartforms.TestingLibrary
             set
             {
                 this.runAsUserField = value;
+            }
+        }
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string enabled
+        {
+            get
+            {
+                return this.enabledField;
+            }
+            set
+            {
+                this.enabledField = value;
             }
         }
     }
