@@ -72,7 +72,13 @@ namespace K2Smartforms.TestingLibrary
 
             }
 
+            else if (xmlNode.OuterXml.Contains("SourceCode.Forms.Controls.Web.ControlPack.Choice"))
+            {
+                type = SFControlType.Choice;
+                ID = DOMControlID = xmlNode.SelectSingleNode("@ID").InnerText;
 
+            }
+            
 
             else
             {
@@ -99,5 +105,6 @@ namespace K2Smartforms.TestingLibrary
         Picker = 6,
         Picture = 7,
         AutoComplete = 8,
+        Choice = 9,
     }
 }

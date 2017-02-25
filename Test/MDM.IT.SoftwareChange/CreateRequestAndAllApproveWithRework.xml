@@ -1,8 +1,8 @@
 <TestDef>
-  <Activity fileName="CreateRiskMsgByIniciator" description="Создание заявки более 50 т.р."  runAsUser="corp\user1" />
-  <Activity fileName="DeclineByRiskCoordinator" description="Отлонение заявки риск-координатором"  runAsUser="corp\user2" />
-  <Activity fileName="ReworkByIniciator" description="Доработка заявки инициатором"  runAsUser="corp\user1" />
-  <Activity fileName="ApproveByRiskCoordinator" description="Согласование риск-координатором"  runAsUser="corp\user3" />
-  <Activity fileName="ApproveByRiskCKOR" description="Согласование сотрудником ЦКОР"  runAsUser="corp\user3" />
-  <Activity fileName="FinalCheckByIniciator" description="Финальная проверка статуса заявки в ЛК"  runAsUser="corp\user1" />
+  <Activity fileName="CreateRiskMsgByIniciator" 		description="Создание заявки более 50 т.р."  				runAsUser="corp\user1" />
+  <Activity fileName="DeclineByRiskCoordinator" 		description="Отлонение заявки риск-координатором"  			runAsUser="corp\user2" />
+  <Activity fileName="ReworkByIniciator" 				description="Доработка заявки инициатором" 					runAsUser="corp\user1" />
+  <Activity fileName="ApproveByRiskCoordinator" 		description="Согласование риск-координатором"  				runAsUser="corp\user3" />
+  <Activity fileName="ApproveByRiskCKOR" 				description="Согласование сотрудником ЦКОР"  				runAsUser="corp\user3" />
+  <Activity fileName="FinalCheckByIniciator" 			description="Финальная проверка статуса заявки в ЛК"  		runAsUser="corp\user1" />
 </TestDef>

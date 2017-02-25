@@ -620,6 +620,23 @@ namespace K2Smartforms.TestingLibrary
                     //findMyElement("jquery", "").Click();
                     
                 }
+
+                else if (control.type == SFControlType.Choice)
+                {
+                    string jsStr = @"$.extend($.expr[':'], {'containsi': function(elem, i, match, array){return (elem.textContent || elem.innerText || '').toLowerCase().indexOf((match[3] || '').toLowerCase()) >= 0;}});";
+                    
+
+                    js.ExecuteScript(jsStr);
+
+
+                   
+                    findMyElement("jquery", String.Format("#{0} span.input-control-text:containsi({1})", control.ID, step.value)).Click();
+                    //driver.FindElement(By.CssSelector(".ui-menu-item  a.ui-corner-all"), 10).Click();
+
+
+                    //findMyElement("jquery", "").Click();
+
+                }
             }
 
 
@@ -627,24 +644,14 @@ namespace K2Smartforms.TestingLibrary
             else if (string.Equals(act, "AddToBufferFromElemValue", StringComparison.CurrentCultureIgnoreCase))
             {
 
-                //scanarioOutputDict.Add()
                 var element = findMyElement(step.attribute, step.attributeValue);
-
                 scanarioOutputBuffer[step.value] = element.Text;
-
-
-
             }
 
             else if (string.Equals(act, "AddToBufferFromElemInnerHTML", StringComparison.CurrentCultureIgnoreCase))
             {
-
-                //scanarioOutputDict.Add()
                 var element = findMyElement(step.attribute, step.attributeValue);
                 scanarioOutputBuffer[step.value] = element.GetAttribute("innerHTML");
-
-
-
             }
 
             else if (string.Equals(act, "SwitchToOpenedWindow", StringComparison.CurrentCultureIgnoreCase))
@@ -748,6 +755,8 @@ namespace K2Smartforms.TestingLibrary
             }
             catch (Exception ex)
             {
+                logger.Error("Невозможно найти элемент. Пытаемся найти элемент во фреймах", ex);
+
                 //TODO: Вместо кода ниже реализовать обработку и логирование ошибок. Возможность повторных попыток при ошибках.
                 var frames = driver.FindElements(By.CssSelector("iframe")).ToList();
                 foreach (var frame in frames)
@@ -761,7 +770,8 @@ namespace K2Smartforms.TestingLibrary
                     }
                     catch (Exception ex1)
                     {
-
+                        logger.Error("Невозможно найти элемент во фреймах", ex);
+                        throw new Exception(ex.Message);
                         //driver.SwitchTo().DefaultContent();
                     }
 
@@ -769,10 +779,6 @@ namespace K2Smartforms.TestingLibrary
 
             }
         }
-
-
-
-
 
         private static List<ScenarioStep> loadScenarionSteps(string fileName, List<ScenarioStep> scenario, Settings settings)
         {
